@@ -6,6 +6,7 @@ from lists.models import Todo, TodoList
 
 from django.http import HttpResponse
 from django.utils import timezone
+from django.http import JsonResponse
 import time
 
 
